@@ -1,0 +1,25 @@
+.dispaly {
+  height: 246px;
+  text-align: right;
+  overflow: hidden;
+  div {
+    display: flex;
+    justify-content: space-between;
+    time {
+      margin: 16px 32px;
+      font-size: 18px;
+    }
+    h4 {
+      margin: 20px 24px;
+
+      span {
+        padding: 0 5px;
+        vertical-align: 2px;
+      }
+    }
+  }
+  p {
+    font-size: 100px;
+    margin: 50px 30px;
+  }
+}

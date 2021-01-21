@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 38px;
+  color: white;
+  transition: filter 0.3s ease-in;
+  cursor: pointer;
+
+  &:active {
+    background-color: #aaa;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background-color: #777;
+  }
+
+  &--is-right {
+    background: #ff9a0a;
+  }
+
+  &--is-top {
+    background-color: #a5a5a5;
+  }
+
+  &--is-zero {
+    width: 190px;
+    grid-column: 1 / span 2;
+    border-radius: 45px;
+    justify-content: flex-start;
+    padding-left: 33px;
+  }
+}
